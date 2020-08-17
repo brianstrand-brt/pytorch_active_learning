@@ -1,0 +1,9 @@
+certifi
+mkl
+numpy
+olefile
+Pillow
+six
+torch
+torchvision
+

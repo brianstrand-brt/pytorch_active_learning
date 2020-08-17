@@ -35,7 +35,7 @@ The code currently contains methods for:
 *Active Transfer Learning for Adaptive Sampling (ATLAS)*
 
 
-The book covers how to apply them indepedently, in combination, and for different use cases in Computer Vision and Natural Language Processing. It also covers strategies for sampling for real-world diversity to avoid bias.
+The book covers how to apply them independently, in combination, and for different use cases in Computer Vision and Natural Language Processing. It also covers strategies for sampling for real-world diversity to avoid bias.
 
 ## Installation: 
 
@@ -49,7 +49,7 @@ If you clone this repo and already have PyTorch installed, you should be able to
 
 `python active_learning_basics.py`
 
-When you run the software, you will be prompted to classify news headlines as being disaster-related or not. The prompt will also tell you give you the option to see a precise definitions for what constitutes "disaster-related". You can also read those definitions in the code in the `detailed_instructions` variable: https://github.com/rmunro/pytorch_active_learning/blob/master/active_learning_basics.py
+When you run the software, you will be prompted to classify news headlines as being disaster-related or not. The prompt will also give you the option to see a precise definitions for what constitutes "disaster-related". You can also read those definitions in the code in the `detailed_instructions` variable: https://github.com/rmunro/pytorch_active_learning/blob/master/active_learning_basics.py
 
 After you have classified (annotated) enough data for evaluation and to begin training, you will see that machine learning models now train after each iteration of annotation, reporting the accuracy on your held-out evaluation data as F-Scores and AUC. 
 
@@ -123,4 +123,3 @@ The data is taken from headlines from Australia's "ABC" news organization. They 
 However, I intend to replace it soonish. The headlines are all lower-case and stripped of all characters other than a-z and 0-9: no punctuation, accented characters, etc. Many of the headlines seem to be truncated for some reason, too. So, I will update it with a dataset that is closer to true headlines. 
 
 This dataset is perfectly fine for everything that you need to learn in this code - it is just that the resulting annotations/models will be less useful in real-world situations.
-
